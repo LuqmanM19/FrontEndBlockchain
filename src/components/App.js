@@ -210,7 +210,7 @@ class App extends Component {
         {this.state.user
           ?
           <div className="container-fluid mt-5">
-          <h4 style={{textAlign:"center", backgroundColor:"#F1DABF", boxShadow:" 1px 1px 1px #999"}}> User Address : {this.state.account}</h4>
+          <h4 style={{textAlign:"center", backgroundColor:"#F1DABF", boxShadow:" 1px 1px 1px #999"}}> Address : {this.state.account}</h4>
             <div className="row">
               <main role="main" className="col-lg-12 d-flex text-center">
               {this.state.loading

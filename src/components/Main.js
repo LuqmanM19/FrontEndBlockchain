@@ -7,7 +7,7 @@ class Main extends Component {
       <div id="content" style={{width:"100%"}}>
 
 
-        <table style={{backgroundColor:'aquamarine', width:"100%", boxShadow:" 2px 2px 2px #999"}}>
+        <table style={{backgroundColor:'red', width:"100%", boxShadow:" 2px 2px 2px #999"}}>
           <thead>
             <tr style={{height:"100px"}}>
               <th scope="col"><h1>Deposit</h1></th>
@@ -60,7 +60,7 @@ class Main extends Component {
             </tr>
             <tr style={{height:"100px"}}>
               <th scope="col" style={{textAlign:"right"}}>
-                <h3>Balance in Account </h3>
+                <h3>Balance </h3>
               </th>
 
               <th scope="col" style={{textAlign:"left"}}>
